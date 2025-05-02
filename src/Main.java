@@ -21,13 +21,13 @@ public class Main {
     double b = x / (double) y; // пробразование типа int -> double
     // если мы делим целое на целое, то на выходе мы получаем целое
     // например int / int -> int
-    //  int / byte -> int
-    //  byte / short -> short
+    // int / byte -> int
+    // byte / short -> short
     // но если мы делим вещественное на вещественное -> мы всегда получаем вещественное (с дробной частью)
-    //  double / float -> double
+    // double / float -> double
     // и если мы делим вещественное на целое или наоборот, то мы ВСЕГДА получаем вещественное
-    //  float / int -> float
-    //  char / double -> double
+    // float / int -> float
+    // char / double -> double
     // если мы делим long / double -> double
     // в JAVA нельзя преобразовать больший тип в меньший
         System.out.println(b);
@@ -62,6 +62,8 @@ public class Main {
         System.out.println(h << 2);
         System.out.println(h & 15);
         System.out.println(h | 20);
+
+        System.out.println(x*2);
 
         }
     }
